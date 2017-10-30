@@ -6,7 +6,7 @@ Execution Steps:
 
 1. Download the project.
 
-2. Download OpenCV 3.2.0 from here and link it to the project.
+2. Download OpenCV 3.2.0 and link it to the project.
 
 3. Compile and Run the ExecuteMe.java class present in the path VirtualRuler_CV_Spring17\src\com\java\Test\ExecuteMe.java
 
