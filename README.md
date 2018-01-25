@@ -23,7 +23,7 @@ Z = (focal length * base line distance) / disparity
 
 Re-project these vertices to camera coordinate system using inverse intrinsic matrix and multiply with the
 determined Z. Use distance formula to calculate the real object dimensions.
-The Reference Object Method could determine the object dimensions with high accuracy (99% to 100%)
+The Reference Object Method could determine the object dimensions with high accuracy (98%)
 for objects lying on the same X-Y plane as the reference object. The accuracy drops as the object distance
 from the reference object increases along the Z-axis. The Stereo Vision Method, on the other hand, could
 determine the Z accurately but the accuracy of the determined dimensions dropped in the cases where the
