@@ -19,6 +19,7 @@ the second picture of the same scene. Preprocess the images and find the dispari
 using compute() method of StereoSGBM class in OpenCV library. Detect the objects in the left image and
 get the vertices of the minimum bounding rectangles. Using the disparity map, find the disparity
 corresponding to each of the vertices. Use the below formula to calculate Z:
+
 Z = (focal length * base line distance) / disparity
 
 Re-project these vertices to camera coordinate system using inverse intrinsic matrix and multiply with the
